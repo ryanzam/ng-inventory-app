@@ -1,3 +1,6 @@
-<h1>
-  {{title}}
-</h1>
+<div class="inventory">
+  <app-item-list [productList]="products"
+                 (onProductSelected) = "productSelected($event)" >
+
+  </app-item-list>
+</div>
