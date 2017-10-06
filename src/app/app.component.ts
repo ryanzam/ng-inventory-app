@@ -11,23 +11,23 @@ export class AppComponent {
 
   constructor(){
     this.products = [ new Product(
-      'nice hat',
-      'very nice hat',
-      '/assets/hat.jpg',
-      ['men', 'hat'],
-      20),
+      'Hi-Tech IPAD',
+      'very handy, cheap and great ipad',
+      '/assets/images/ipad.png',
+      ['technology', 'ipad'],
+      189),
       new Product(
-      'NEATOJACKET',
-      'Blue Jacket',
-      '/assets/images/products/blue-jacket.jpg',
-      ['Women', 'Apparel', 'Jackets & Vests'],
-      238.99),
+      'LAPTOP',
+      'Octa-Core Laptop',
+      '/assets/images/laptop.png',
+      ['laptop', 'latest model', 'durable'],
+      699.99),
       new Product(
-        'NICEHAT',
-        'A Nice Black Hat',
-        '/assets/images/products/black-hat.jpg',
-        ['Men', 'Accessories', 'Hats'],
-        29.99)
+        'PHONE',
+        'Recently released, new technologies',
+        '/assets/images/phone.png',
+        ['Phone', 'super-fast', 'high-resolution camera', '32gb ram'],
+        499)
     ];
   }
 
